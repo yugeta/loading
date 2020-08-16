@@ -1,0 +1,58 @@
+<svg class="mynt-circle" width="64px" height="64px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    svg.mynt-circle {
+      position:absolute;
+      top:50%;
+      left:50%;
+      transform:translate(-50%,-50%);
+    }
+    svg.mynt-circle > g > g{
+      position:relative;
+    }
+    svg.mynt-circle > g > g > circle{
+      position:absolute;
+      fill : white;
+      cx   : 0px;
+      cy   : 0px;
+      r    : 5;
+      transform:translateY(-26px);
+      animation: anim-circle-dot 0.9s ease-in-out infinite;
+    }
+
+    svg.mynt-circle > g > g:nth-child(1){transform:translate(32px, 32px) rotate(0deg);}
+    svg.mynt-circle > g > g:nth-child(1) > circle{animation-delay: 0s;}
+    svg.mynt-circle > g > g:nth-child(2){transform:translate(32px, 32px) rotate(40deg);}
+    svg.mynt-circle > g > g:nth-child(2) > circle{animation-delay: -0.8s;}
+    svg.mynt-circle > g > g:nth-child(3){transform:translate(32px, 32px) rotate(80deg);}
+    svg.mynt-circle > g > g:nth-child(3) > circle{animation-delay: -0.7s;}
+    svg.mynt-circle > g > g:nth-child(4){transform:translate(32px, 32px) rotate(120deg);}
+    svg.mynt-circle > g > g:nth-child(4) > circle{animation-delay: -0.6s;}
+    svg.mynt-circle > g > g:nth-child(5){transform:translate(32px, 32px) rotate(160deg);}
+    svg.mynt-circle > g > g:nth-child(5) > circle{animation-delay: -0.5s;}
+    svg.mynt-circle > g > g:nth-child(6){transform:translate(32px, 32px) rotate(200deg);}
+    svg.mynt-circle > g > g:nth-child(6) > circle{animation-delay: -0.4s;}
+    svg.mynt-circle > g > g:nth-child(7){transform:translate(32px, 32px) rotate(240deg);}
+    svg.mynt-circle > g > g:nth-child(7) > circle{animation-delay: -0.3s;}
+    svg.mynt-circle > g > g:nth-child(8){transform:translate(32px, 32px) rotate(280deg);}
+    svg.mynt-circle > g > g:nth-child(8) > circle{animation-delay: -0.2s;}
+    svg.mynt-circle > g > g:nth-child(9){transform:translate(32px, 32px) rotate(320deg);}
+    svg.mynt-circle > g > g:nth-child(9) > circle{animation-delay: -0.1s;}
+    @keyframes anim-circle-dot{
+      0%{opacity:0.0;}
+      10%{opacity:1.0;}
+      90%{opacity:0.0;}
+      100%{opacity:0.0;}
+    }
+  </style>
+  <g>
+    <g><circle></circle></g>
+    <g><circle></circle></g>
+    <g><circle></circle></g>
+    <g><circle></circle></g>
+    <g><circle></circle></g>
+    <g><circle></circle></g>
+    <g><circle></circle></g>
+    <g><circle></circle></g>
+    <g><circle></circle></g>
+  </g>
+</svg>

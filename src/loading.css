@@ -1,0 +1,17 @@
+
+.mynt-loading-base{
+  position:absolute;
+  width:100px;
+  height:100px;
+  top:0;
+  left:0;
+  background-color:rgba(0,0,0,0.5);
+}
+.mynt-loading-base[data-type="body"]{
+  position:fixed;
+}
+
+.mynt-loading-message{
+  color:white;
+}
+
